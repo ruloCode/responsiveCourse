@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-primary: "DM Sans", sans-serif;
+  --font-secondary: "Inter", sans-serif;
+
+  /* colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --warm-black: #201e1c;
+  --warm-black-1: #282623;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+}
+
+/* Reset HTML */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: var(--font-primary);
+  font-size: 62.5%;
+}
