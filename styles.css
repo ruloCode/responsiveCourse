@@ -22,6 +22,7 @@
 html {
   font-family: var(--font-primary);
   font-size: 62.5%;
+  background: #faf8f7;
 }
 
 header {
@@ -115,4 +116,98 @@ main {
 .main-exchange-container-title {
   margin: 0 auto;
   width: clamp(288px, 90%, 900px);
+}
+
+.background-img {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: 200px;
+  height: 200px;
+
+  /* background: url -position/-size -repeat */
+  background: url("./assets/img/Bitcoin.svg") center/cover no-repeat;
+}
+
+.main-exchange-container-title h2 {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 2.4rem;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.main-exchange-container-title p {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  color: #757575;
+}
+
+.main-coins-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0 auto;
+  width: clamp(197px, 197px, 218px);
+}
+
+.main-coins-container .grid-title {
+  position: relative;
+  margin-bottom: 12px;
+  margin-left: 16px;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-align: left;
+  color: var(--bitcoin-orange);
+}
+
+.coins-grid {
+  display: grid;
+  grid-row-gap: 10px;
+  grid-template-columns: 1fr;
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: var(--just-white);
+}
+
+.coins-grid-item {
+  display: grid;
+  grid-template-columns: 101px 95px;
+  font-family: var(--font-secondary);
+}
+
+.coins-grid-item .name {
+  padding: 10px 0;
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-align: left;
+  color: #b5b0ac;
+}
+
+.coins-grid-item .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  font-size: 1.7rem;
+  text-align: left;
+  color: #757575;
+}
+
+.coins-grid-item .price img {
+  margin-left: 16px;
+}
+
+.currency {
+  margin: 0 auto;
+  margin-top: 16px;
+  border-radius: 8px;
+  padding: 8px;
+  width: 115px;
+  font-family: var(--font-secondary);
+  font-size: 1.2rem;
+  background: var(--soft-orange);
 }
