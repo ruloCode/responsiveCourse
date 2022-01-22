@@ -96,3 +96,23 @@ header img {
   background-image: url("./assets/icons/down-arrow.svg");
   background-repeat: no-repeat;
 }
+
+main {
+  width: 100%;
+  height: auto;
+  min-width: 320px;
+  background-color: var(--off-white);
+}
+
+.main-exchange-container {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.main-exchange-container-title {
+  margin: 0 auto;
+  width: clamp(288px, 90%, 900px);
+}
