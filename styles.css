@@ -6,6 +6,8 @@
   /* colors */
   --bitcoin-orange: #f7931a;
   --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
   --warm-black: #201e1c;
   --warm-black-1: #282623;
   --off-white: #faf8f7;
@@ -147,11 +149,17 @@ main {
 
 .main-coins-container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  margin: 0 auto;
-  width: clamp(197px, 197px, 218px);
+  overflow-x: scroll;
+  padding-left: calc(50% - 110px);
+  height: 316px;
+  scroll-snap-type: x proximity;
+  gap: 20px;
+  overscroll-behavior-x: contain;
+}
+
+.table-view-card {
+  /* horizontal scroll  */
+  scroll-snap-align: center;
 }
 
 .main-coins-container .grid-title {
@@ -163,6 +171,10 @@ main {
   line-height: 2.3rem;
   text-align: left;
   color: var(--bitcoin-orange);
+}
+
+.main-coins-container .grid-title-commissions {
+  color: var(--secondary-blue);
 }
 
 .coins-grid {
@@ -211,6 +223,10 @@ main {
   font-family: var(--font-secondary);
   font-size: 1.2rem;
   background: var(--soft-orange);
+}
+
+.table-view-card .currency .currency-commissions {
+  background: red;
 }
 
 .main-product-detail {
@@ -361,10 +377,13 @@ main {
   margin: 50px auto 0;
   border-radius: 15px;
   padding: 0 15px;
-  width: clamp(230px, 70%, 300px);
+  width: clamp(190px, 70%, 300px);
   height: 250px;
   box-shadow: 0 4px 8px rgb(89 73 30 / 16%);
   background-color: var(--just-white);
+
+  /* horizontal scroll  */
+  scroll-snap-align: center;
 }
 
 .recommended {
@@ -429,4 +448,45 @@ main {
   width: 20px;
   height: 20px;
   background-image: url("./assets/icons/orange-right-arrow.svg");
+}
+
+.plans-container-slider {
+  display: flex;
+  overflow-x: scroll;
+  height: 316px;
+
+  /* proximity scroll */
+  scroll-snap-type: x proximity;
+  gap: 10px;
+  overscroll-behavior-x: contain;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
+}
+
+footer section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+footer .left ul {
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+.left li {
+  margin: 10px 0;
+}
+
+.left a {
+  text-decoration: none;
+  color: var(--just-white);
 }
