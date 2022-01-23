@@ -3,9 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/48034545/150668191-39717f54-ad4f-47ac-aee1-e858e7ac7c27.png)
 
-A landng page made with HTML and CSS
-
-
+[Design Specs](https://www.figma.com/file/sMmlQaZldfDcLERYYWe6h4/Bata-Bit?node-id=359%3A154)
 
 ## Deploy
 
