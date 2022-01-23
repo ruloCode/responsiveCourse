@@ -9,9 +9,10 @@ A landng page made with HTML and CSS
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://next-100x-ts.vercel.app/)
+[![Deploy with Vercel](https://vercel.com/button)](https://rulocode.github.io/responsiveCourse/)
 
 
 
 
-[![wakatime](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/92499e6f-ac7a-4756-9607-e5cf67e4f78e.svg)](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/92499e6f-ac7a-4756-9607-e5cf67e4f78e)
+
+[![wakatime](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/34dadc70-a0af-42f7-a954-18fb243290f4.svg)](https://wakatime.com/badge/user/438a330e-6b52-4b08-9417-cdd9fc37a05a/project/34dadc70-a0af-42f7-a954-18fb243290f4)
